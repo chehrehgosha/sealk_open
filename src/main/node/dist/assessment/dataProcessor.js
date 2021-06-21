@@ -41,7 +41,7 @@ var optimizationCallback = require("./optimizationCallback").optimizationCallbac
 var fs = require("fs");
 // the function used for data processing
 function dataProcessor(linesOfData, processLimit) {
-    return __awaiter(this, void 0, void 0, function () {
+    return __awaiter(this, void 0, Promise, function () {
         var numberOfLines, numberOfIterations, index, startIndex, endIndex, processRequests;
         var _this = this;
         return __generator(this, function (_a) {

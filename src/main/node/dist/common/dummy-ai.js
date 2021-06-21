@@ -41,7 +41,7 @@ var DummyAI = /** @class */ (function () {
     function DummyAI() {
     }
     DummyAI.getCompanyAttractiveness = function (companySymbol) {
-        return __awaiter(this, void 0, void 0, function () {
+        return __awaiter(this, void 0, Promise, function () {
             return __generator(this, function (_a) {
                 return [2 /*return*/, new Promise(function (r) {
                         setTimeout(function () {
